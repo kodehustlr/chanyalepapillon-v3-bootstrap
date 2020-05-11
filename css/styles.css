@@ -341,7 +341,7 @@ footer p {
   body {
       margin: 1.625rem;
   }
-  p, li, th, td {
+  p, li, th, td, a {
     font-size: 1.05rem;
   }
   .btn-chanya-secondary {
@@ -398,7 +398,7 @@ footer p {
     margin: 2.25rem;
     padding: 0;
   }
-  p, li, th, td {
+  p, li, th, td, a {
     font-size: 1.075rem;
   }
   .btn-chanya-secondary {
@@ -455,7 +455,7 @@ footer p {
     max-width: 1140px;
     border: 7px solid var(--gold);
   }
-  p, li, th, td {
+  p, li, th, td, a {
     font-size: 1.125rem;
   }
   .btn-chanya-secondary {
