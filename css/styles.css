@@ -46,7 +46,7 @@ body {
   color: var(--gold);
   font-size: 1.125rem;
 }
-p, li, th, td {
+p, li, th, td, div, label {
   color: var(--grey-dark);
 }
 .indent {
