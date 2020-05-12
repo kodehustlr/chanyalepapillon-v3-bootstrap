@@ -1,0 +1,130 @@
+.header {
+  margin-top: .375rem;
+  margin-bottom: 1.25rem;
+}
+.heading-1 {
+  font-size: 1.625rem;
+  color: var(--gold-dark);
+  text-align: center;
+  margin-bottom: .25rem;
+}
+.heading-2 {
+  font-size: 1.125rem;
+  color: var(--gold-dark);
+  text-align: center;
+}
+img.heart-2.contact {
+    width: 26px;
+}
+.fas, .fab {
+    font-size: 1.125rem;
+}
+.contact-details .fas, .contact-details .fab {
+  font-size: 1.125rem;
+  margin-right: .25rem;
+  color: #636363;
+}
+.fas.label, .fab.label {
+  color: var(--grey-dark);
+  font-size: .875rem;
+  margin-left: .125rem;
+}
+.info {
+  padding: 1.25rem;
+  border-radius: 5px;
+  background-color: rgba(215, 233, 217, 0.4);
+  border: 1px solid #dce9e2;
+}
+.info .col {
+  padding: 0;
+}
+.f-small {
+  font-size: 1rem;
+}
+.nav .fas, .nav .fab {
+  color: var(--redpink);
+  font-size: 1rem;
+  margin-right: 0;
+}
+.nav-back:hover .fas, .nav-back:hover .fab {
+    color: var(--peach);
+}
+
+/* ========== MEDIA QUERIES ========== */
+@media screen and (min-width: 576px) {
+  .header {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  .heading-1 {
+    font-size: 1.935rem;
+  }
+  .heading-2 {
+    font-size: 1.25rem;
+  }
+  img.heart-2.contact {
+    width: 29px;
+  }
+  .fas, .fab {
+      font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading-1 {
+    font-size: 2.25rem;
+  }
+  .heading-2 {
+    font-size: 1.5rem;
+  }
+  img.heart-2.contact {
+    margin-left: .625rem;
+    width: 33px;
+  }
+  .fas, .fab {
+      font-size: 1.375rem;
+  }
+}
+
+@media screen and (min-width: 992px)  {
+  .header {
+    margin-bottom: 1.75rem;
+  }
+  .heading-1 {
+    font-size: 2.5rem;
+  }
+  .heading-2 {
+    font-size: 1.625rem;
+  }
+  img.heart-2.contact {
+    margin-left: .75rem;
+    width: 37px;
+  }
+  .fas, .fab {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+      margin-bottom: 1.625rem;
+  }
+  .heading-1 {
+    font-size: 2.875rem;
+  }
+  .heading-2 {
+    font-size: 1.75rem;
+  }
+  img.heart-2.contact {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .heading-1 {
+    font-size: 2.875rem;
+  }
+  img.heart-2.contact {
+    width: 42px;
+  }
+}
